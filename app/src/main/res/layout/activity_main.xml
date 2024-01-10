@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3">
+
+    <ListView
+        android:id="@+id/taskListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:layout_above="@+id/addTaskButton"/>
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_alignParentBottom="true"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/taskDetailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/addTaskButton"
+        android:visibility="gone"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:backgroundTint="#FF4081"
+            android:padding="8dp" />
+
+        <Spinner
+            android:id="@+id/prioritySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/priority_options"
+            android:prompt="@string/priority_prompt"
+            android:layout_marginTop="8dp"
+            android:background="#FFC107"/>
+
+        <EditText
+            android:id="@+id/dueDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Due Date"
+            android:focusable="false"
+            android:onClick="showDatePickerDialog"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#2196F3"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/categoryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9800"
+            android:padding="8dp"/>
+
+        <Spinner
+            android:id="@+id/statusSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/status_options"
+            android:prompt="@string/status_prompt"
+            android:layout_marginTop="8dp"
+            android:background="#9C27B0"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

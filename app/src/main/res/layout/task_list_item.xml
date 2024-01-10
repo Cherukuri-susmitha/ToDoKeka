@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Title Row -->
+    <LinearLayout
+        android:id="@+id/titleRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:padding="16dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="cursive"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:radius="8dp"
+            android:elevation="4dp"
+            android:text="Title"/>
+    </LinearLayout>
+
+    <!-- Priority and Due Date Row -->
+    <LinearLayout
+        android:id="@+id/priorityDueDateRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleRowLayout"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/priorityTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:background="#FFB6C1"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="cursive"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:radius="8dp"
+            android:elevation="4dp"
+            android:text="Priority"/>
+
+        <TextView
+            android:id="@+id/dueDateTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:background="#B2DFDB"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:radius="8dp"
+            android:elevation="4dp"
+            android:text="Due Date"/>
+    </LinearLayout>
+
+    <!-- Category and Status Row -->
+    <LinearLayout
+        android:id="@+id/categoryStatusRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priorityDueDateRowLayout"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:background="#FFECB3"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="cursive"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:radius="8dp"
+            android:elevation="4dp"
+            android:text="Category"/>
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:background="#BBDEFB"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="4dp"
+            android:radius="8dp"
+            android:elevation="4dp"
+            android:text="Status"/>
+    </LinearLayout>
+</RelativeLayout>

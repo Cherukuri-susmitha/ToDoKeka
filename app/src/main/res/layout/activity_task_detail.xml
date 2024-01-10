@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <EditText
+        android:id="@+id/forText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title..."
+        android:background="#FFFFFF"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/forPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_options"
+        android:layout_below="@id/forText"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:padding="8dp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/forDueDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:focusable="false"-->
+<!--        android:onClick="showDatePickerDialog"-->
+<!--        android:layout_below="@id/forPriority"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:hint="Due Date"-->
+<!--        android:background="#FFFFFF"-->
+<!--        android:padding="8dp" />-->
+    <EditText
+        android:id="@+id/forDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due Date..."
+        android:focusable="false"
+        android:onClick="showDatePickerDialog1"
+        android:layout_below="@id/forPriority"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/forCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forDueDate"
+        android:layout_marginTop="10dp"
+        android:hint="Category..."
+        android:background="#FFFFFF"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/forStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_options"
+        android:layout_below="@id/forCategory"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/updateTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Task"
+        android:layout_below="@id/forStatus"
+        android:layout_marginTop="16dp"
+        android:background="#4285F4"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+</RelativeLayout>

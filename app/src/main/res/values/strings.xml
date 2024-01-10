@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TodoKeka</string>
+
+        <string-array name="priority_options">
+            <item>Low</item>
+            <item>Medium</item>
+            <item>High</item>
+        </string-array>
+
+        <string name="priority_prompt">Select Priority</string>
+
+        <string-array name="status_options">
+            <item>In Progress</item>
+            <item>Completed</item>
+            <item>Incomplete</item>
+        </string-array>
+
+        <string name="status_prompt">Select Status</string>
+    <!-- Add this array to your strings.xml -->
+    <string-array name="category_array">
+        <item>All Categories</item>
+        <item>Category1</item>
+        <item>Category2</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+
+    <string name="select_category">Select Category</string>
+    <string name="all_categories">All Categories</string>
+
+
+
+
+</resources>
