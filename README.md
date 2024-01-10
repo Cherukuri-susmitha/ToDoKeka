@@ -9,11 +9,13 @@ About App:
 •	I have used local storage (SQLite) to store the data.
 
 Results:
-![WhatsApp Image 2024-01-10 at 3 17 45 PM (1)](https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/33b85b99-ed9c-4e0a-8b05-fd29e7b99198)
-![WhatsApp Image 2024-01-10 at 3 17 46 PM](https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/cd73e651-3903-480b-9ce7-0f6fd73429f8)
-![WhatsApp Image 2024-01-10 at 3 17 46 PM (2)](https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/f3d51688-fd21-4333-814c-2db3f5d3e9a6)
-![WhatsApp Image 2024-01-10 at 3 17 46 PM (1)](https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/54a7627d-438d-4e85-a485-442125906035)
-![WhatsApp Image 2024-01-10 at 3 17 45 PM](https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/6722f1f3-3ed6-4193-aa33-16d6f9cee09c)
+
+
+<img src="https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/33b85b99-ed9c-4e0a-8b05-fd29e7b99198" width="250" height="250">
+<img src="https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/cd73e651-3903-480b-9ce7-0f6fd73429f8" width="250" height="250">
+<img src="https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/f3d51688-fd21-4333-814c-2db3f5d3e9a6" width="250" height="250">
+<img src="https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/54a7627d-438d-4e85-a485-442125906035" width="250" height="250">
+<img src="https://github.com/Cherukuri-susmitha/ToDoKeka/assets/84890433/6722f1f3-3ed6-4193-aa33-16d6f9cee09c" width="250" height="250">
 
  
                                    
